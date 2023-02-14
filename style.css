@@ -38,6 +38,44 @@ nav a{
 nav a:hover{
     color: #8a0108dc;
 }
+#novidade{
+    min-height: 45vh;
+    background: url(images/background.jpg) center center /cover no-repeat scroll white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#painel_novidades{
+    background-color: rgba(0, 0, 0, 0.644);
+    border-radius: 6px;
+    max-width: 600px;
+    min-width: 200px;
+    min-height: 15vh;
+    max-height: 30vh;
+    align-self: center;
+    padding: 20px 40px 20px 20px;
+    margin: 20px;
+}
+#painel_novidades h1{
+    color: white;
+    font: 600 2.3em var(--fontepadrao);
+    padding-bottom: 10px;
+}
+#painel_novidades>p{
+    color: white;
+    font: 500 1em var(--fontepadrao);
+}
+.mariopng{
+    align-self: center;
+    max-width: 300px;
+    min-width: 50px;
+    min-height: 1vh;
+    max-height: 45vh;
+}
+.mariopng img{
+    max-width: 100%;
+    height: auto;
+}
 #secaoprodutos{
     max-width: 1290px;
     min-width: 320px;
@@ -71,7 +109,7 @@ nav a:hover{
     max-height: 152px;
     border-radius: 5px 5px 0px 0px;
 }
-.produto h2,p{
+.produto h2,.produto p{
     font:normal 1em var(--fontepadrao);
     padding: 15px 0px 15px 15px;
     max-width: 255px;
