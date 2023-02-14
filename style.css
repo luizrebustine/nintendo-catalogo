@@ -88,3 +88,6 @@ nav a:hover{
 .produto h2:hover{
     color: var(--cor01);
 }
+.produto h2{
+    min-height: 40px;
+}
