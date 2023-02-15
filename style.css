@@ -19,6 +19,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     padding: 10px 30px;
     box-shadow: 5px 5px 11px 0px rgba(0, 0, 0, 0.425);
 }
@@ -64,6 +65,7 @@ nav a:hover{
 #painel_novidades>p{
     color: white;
     font: 500 1em var(--fontepadrao);
+    line-height: 27px;
 }
 .mariopng{
     align-self: center;
